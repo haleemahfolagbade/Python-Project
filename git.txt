@@ -1,0 +1,12 @@
+cd = change directory
+CLI - Command Line Interface
+Github - a website to host your repositories online
+
+# Git command
+
+Clone - bring a repository somewhere like Github to a folder on my local machine
+add - to add your files and changes in Git
+commit - save your files in Git
+push - upload git commit to a remote repo, like Github
+pull - download changes from a remote repo to your local machine
+
