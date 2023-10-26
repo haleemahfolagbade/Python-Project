@@ -143,8 +143,11 @@ messages = ['It is certain', 'It is decidedly so', 'Yes',
 print(messages[random.randint(0, len(messages) - 1)])
 """
 
-bacon = 'Hello'
-print(id(bacon))
+import copy
 
-bacon += 'World'
-print(id(bacon))
+spam = ['A', 'B', 'C', 'D']
+print(id(spam))
+
+cheese = copy.copy(spam)
+print(id(cheese))
+
